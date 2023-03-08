@@ -121,8 +121,8 @@ list = [
 ###################################################### NOLUS ###############################################################
 [[chains]]
 id = 'nolus-rila'
-rpc_addr = 'http://127.0.0.1:55657'
-grpc_addr = 'http://127.0.0.1:55090'
+rpc_addr = 'http://127.0.0.1:55657' # Change this to your rpc node, located in config.toml
+grpc_addr = 'http://127.0.0.1:55090' # Change this to your grpc node, located in app.toml
 websocket_addr = 'ws://127.0.0.1:55657/websocket'
 
 rpc_timeout = '10s'
